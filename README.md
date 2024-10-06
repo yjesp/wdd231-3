@@ -1,1 +1,61 @@
-# wdd231-3
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce Home Page">
+    <meta name="author" content="Your Name">
+    <title>Chamber of Commerce - Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Chamber of Commerce</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Join Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <img src="images/hero.jpg" alt="Hero Image" style="width: 100%;">
+            <h2>Welcome to the Chamber of Commerce</h2>
+            <a href="#" class="cta">Join the Chamber Today!</a>
+        </section>
+
+        <!-- Weather Section -->
+        <section id="weather">
+            <h2>Current Weather</h2>
+            <p id="temperature"></p>
+            <p id="description"></p>
+            <h3>3-Day Forecast</h3>
+            <div id="forecast"></div>
+        </section>
+
+        <!-- Current Events Section -->
+        <section id="events">
+            <h2>Upcoming Events</h2>
+            <p>Check out our upcoming events and community activities.</p>
+        </section>
+
+        <!-- Company Spotlights Section -->
+        <section id="spotlights">
+            <h2>Company Spotlights</h2>
+            <div id="spotlight-container"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Chamber of Commerce</p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+</html>
