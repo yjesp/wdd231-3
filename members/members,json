@@ -1,0 +1,5 @@
+[
+    { "name": "Company A", "level": 3, "logo": "companyA.png", "phone": "123-456-7890", "address": "123 Main St", "website": "http://companya.com" },
+    { "name": "Company B", "level": 2, "logo": "companyB.png", "phone": "234-567-8901", "address": "456 Elm St", "website": "http://companyb.com" },
+    { "name": "Company C", "level": 3, "logo": "companyC.png", "phone": "345-678-9012", "address": "789 Oak St", "website": "http://companyc.com" }
+]
